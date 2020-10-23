@@ -12,7 +12,7 @@ module.exports.run = async(client, message, args) => {
   const userMention = message.guild.members.cache.get(search.replace(/\D/g, ""));
   const getUser = userID || userUsername || userNickname || userDiscrim || userTag || userMention;
   const embed = new MessageEmbed()
-    .setColor('RANTOM')
+    .setColor('RANDOM')
     .setTitle(`Avatar de ${getUser.user.tag} :`)
     .setImage(getUser.user.displayAvatarURL({size: 2048, dynamic: true, fromat: "png"}))
     .setTimestamp()
