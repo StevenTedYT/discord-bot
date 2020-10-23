@@ -16,7 +16,7 @@ module.exports.run = async(client, message, args) => {
     .setTitle(`Avatar de ${getUser.user.tag} :`)
     .setImage(getUser.user.displayAvatarURL({size: 2048, dynamic: true, fromat: "png"}))
     .setTimestamp()
-    .setFooter(`Alpha v0.1.1`, `${message.author.displayAvatarURL({ dynamic: true, format: '', size: 2048 })}`)
+    .setFooter(`Code par StevenTed#0001`, `${message.author.displayAvatarURL({ dynamic: true, format: '', size: 2048 })}`)
   return message.channel.send(embed).disableMentions
 };
 
