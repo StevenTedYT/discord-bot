@@ -8,8 +8,3 @@ function set(min,max)
 var random=set(0,20000)
 message.channel.send(random)
 }
-
-module.exports.help = {
-    name: "test",
-    aliases: ["t"]
-}
