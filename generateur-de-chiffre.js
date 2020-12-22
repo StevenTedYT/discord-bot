@@ -1,6 +1,6 @@
 const discord=require('discord.js');
 
-module.exports.run = async(client, message, args) => {
+module.exports.run=async(client,message,args)=>{
 function set(min,max)
 {
     return Math.floor(Math.random()*(max-min+1))+min;
